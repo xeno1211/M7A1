@@ -1,17 +1,26 @@
 [
     {
         "name": "John Doe",
-        "age": 25,
-        "gender": "Male"
-    },
-    {
-        "name": "Jane Doe",
-        "age": 30,
-        "gender": "Female"
+        "phoneNumber": "123-456-7890",
+        "loanAmount": 1000,
+        "interest": 3.5,
+        "loanTerm": 10,
+        "type": "Auto"
     },
     {
         "name": "Bob Smith",
-        "age": 40,
-        "gender": "Nonbinary"
+        "phoneNumber": "123-456-7890",
+        "loanAmount": 50000,
+        "interest": 5.5,
+        "loanTerm": 10,
+        "type": "Student Loan"
+    },
+    {
+        "name": "John Doe",
+        "phoneNumber": "123-456-7890",
+        "loanAmount": 250000,
+        "interest": 2.5,
+        "loanTerm": 30,
+        "type": "Home"
     }
 ]

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>JSON Data Table</title>
+    <title>Loan Data Table</title>
     <style>
         table {
             border-collapse: collapse;
@@ -22,21 +22,27 @@
     </style>
 </head>
 <body>
-    <h1>JSON Data Table</h1>
+    <h1>Loan Data Table</h1>
     <table>
         <thead>
             <tr>
                 <th>Name</th>
-                <th>Age</th>
-                <th>Gender</th>
+                <th>Phone Number</th>
+                <th>Loan Amount</th>
+                <th>Loan Interest Rate</th>
+                <th>Loan Term</th>
+                <th>Loan Type</th>
             </tr>
         </thead>
         <tbody>
             <% for (let i = 0; i < data.length; i++){ %>
                 <tr>
                     <td><%= data[i].name %></td>
-                    <td><%= data[i].age%></td>
-                    <td><%= data[i].gender%></td>
+                    <td><%= data[i].phoneNumber%></td>
+                    <td><%= data[i].loanAmount%></td>
+                    <td><%= data[i].interest%></td>
+                    <td><%= data[i].loanTerm%></td>
+                    <td><%= data[i].type%></td>
                 </tr>
             <% } %>
         </tbody>
